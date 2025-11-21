@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1642489407015649515}
   - component: {fileID: 8391793562391717986}
   - component: {fileID: 4337876243576815266}
+  - component: {fileID: 1453342463704660167}
   m_Layer: 0
   m_Name: DamageZone
   m_TagString: Untagged
@@ -114,7 +115,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.044231534, y: 0.08494556}
@@ -126,7 +127,19 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 2.4642985, y: 2.684899}
   m_EdgeRadius: 0
+--- !u!114 &1453342463704660167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640925521686309630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786e4ef5dad41be40a90c0689ad790b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
